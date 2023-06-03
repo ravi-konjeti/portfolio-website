@@ -13,3 +13,6 @@ with col2:
     This is Ravi Konjeti.I am Software engineer by profession.
     """
     st.info(content)
+
+
+st.write("Below you can find some of the apps i have built in python, Feel free to contact me")
