@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+#import
 st.set_page_config(layout="wide")
 
 # st.columns(2) returns 2 columns and we stored them in col1,col2
