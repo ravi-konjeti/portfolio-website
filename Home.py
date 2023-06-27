@@ -4,38 +4,23 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # st.columns(2) returns 2 columns and we stored them in col1,col2
-col1 , col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("images/photo-output.jpg")
 
 with col2:
     st.title("Ravi Konjeti")
+    st.info("Linkedin - https://www.linkedin.com/in/ravi-k-64126523a/")
     content = """
-    This is Ravi Konjeti.I am Software engineer by profession.
+    Hey, Thank you for visiting my web portfolio.
     """
-    st.info(content)
-
-
-st.write("Below you can find some of the apps i have built in python, Feel free to contact me")
-
-col3, empty_col, col4 = st.columns([1.5,0.5,1.5])
-
-df = pd.read_csv("data.csv", sep = ";")
-
-with col3:
-    for index, row in df[:10].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
-
-
-with col4:
-    for index, row in df[10:].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
-
+    subheader_content = """I developed various applications using numerous libraries and dependencies in Python."""
+    subheader2_content = """You can find my applications source code in All Projects side bar."""
+    subheader3_cotent = """I am open to work. Feel free to contact me."""
+    info_content = """download my excel invoice to pdf converter package using pip install pdfinv-generator."""
+    st.subheader(content)
+    st.subheader(subheader2_content)
+    st.subheader(subheader3_cotent)
+    st.info(info_content)
 
