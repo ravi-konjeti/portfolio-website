@@ -16,11 +16,11 @@ with col2:
     Hey, Thank you for visiting my web portfolio.
     """
     subheader_content = """I developed various applications using numerous libraries and dependencies in Python."""
-    subheader2_content = """You can find my applications source code in All Projects side bar."""
     subheader3_cotent = """I am open to work. Feel free to contact me."""
-    info_content = """pip install pdfinv-generator."""
+    subheader4_content = """I developed an Excel to Pdf converter, to install it you can use the following command in your code editor"""
+    info_content = """Excel to Pdf Converter -  pip install pdfinv-generator"""
     st.subheader(content)
-    st.subheader(subheader2_content)
     st.subheader(subheader3_cotent)
-    st.info(info_content)
+    st.info(subheader4_content)
+    st.subheader(info_content)
 
