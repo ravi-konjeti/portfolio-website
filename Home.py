@@ -18,7 +18,7 @@ with col2:
     subheader_content = """I developed various applications using numerous libraries and dependencies in Python."""
     subheader3_cotent = """I am open to work. Feel free to contact me."""
     subheader4_content = """I developed an Excel to Pdf converter, to install it you can use the following command in your code editor"""
-    info_content = """Excel to Pdf Converter -  pip install pdfinv-generator"""
+    info_content = """pip install pdfinv-generator"""
     st.subheader(content)
     st.subheader(subheader3_cotent)
     st.info(subheader4_content)
