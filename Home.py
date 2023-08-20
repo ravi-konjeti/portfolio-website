@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo-output Copy.jpg", height=230)
+    st.image("images/photo-output Copy.jpg")
 
 with col2:
     st.title("Ravi Konjeti")
