@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # st.columns(2) returns 2 columns and we stored them in col1,col2
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap='small')
 
 with col1:
     st.image("images/photo-output Copy.jpg", width=230)
